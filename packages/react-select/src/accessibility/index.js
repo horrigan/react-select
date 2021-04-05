@@ -140,7 +140,7 @@ export const defaultAriaLiveMessages = {
       arr && arr.length ? `${arr.indexOf(item) + 1} of ${arr.length}` : '';
 
     if (context === 'value' && selectValue) {
-      return `value ${label} focused, ${getArrayIndex(selectValue, focused)}.`;
+      return `value ${label} focused`;
     }
 
     if (context === 'menu') {
